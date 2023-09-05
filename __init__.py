@@ -380,7 +380,7 @@ def get_colors_in_regions_and_count_qty(df, regions=None, with_rgb_tuple_column=
             ]
             .value_counts(["red", "green", "blue"])
             .reset_index()
-            .rename(columns={0: "qty"})
+            .rename(columns={'count': "qty"})
             .copy()
         )
         allco["size_of_area"] = area_size

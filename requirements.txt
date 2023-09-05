@@ -1,3 +1,5 @@
+PrettyColorPrinter
+Shapely
 a_cv2_imshow_thread
 a_cv_imwrite_imread_plus
 a_pandas_ex_closest_color
@@ -16,6 +18,4 @@ numexpr
 numpy
 opencv_python
 pandas
-PrettyColorPrinter
 scikit_learn
-Shapely
